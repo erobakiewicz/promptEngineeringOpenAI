@@ -3,10 +3,12 @@ import os
 
 from IPython.display import display, HTML
 from dotenv import load_dotenv, find_dotenv
+from prompt_examples import prompts
 
 _ = load_dotenv(find_dotenv())
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
+KEY = "bookshelf"
 
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
@@ -19,14 +21,5 @@ def get_completion(prompt, model="gpt-3.5-turbo"):
     return response.choices[0].message["content"]
 
 
-prompt = f"""
-I want to build bookshelf for my room. The room is 3 meters wide and 4 meters long. I want it to be able to hold
-5000 books. What are possible designs for the bookshelf? What materials should I use? What tools do I need? How much
-does it cost in Poland (prices in PLN). 
-Create a list of 5 possible and different from each other designs in length and width of shelf and in arrangement e.g.
-in the corner, across the whole room. Create short summary of the each design (less than 100 words) with pros and cons.
-
-"""
-response = get_completion(prompt)
+response = get_completion(prompts.get(KEY))
 print(response)
-# display(HTML(response))
