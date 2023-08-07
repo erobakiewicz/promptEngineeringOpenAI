@@ -16,5 +16,22 @@ does it cost in Poland (prices in PLN).
 Create a list of 5 possible and different from each other designs in length and width of shelf and in arrangement e.g.
 in the corner, across the whole room. Create short summary of the each design (less than 100 words) with pros and cons.
 
-"""
+""",
+    "RG35XX": {
+        "review1": """Really awesome handheld. About the size of a gameboy pocket. 
+        Buttons feel good the screen is bright has options 1-5 for brightness. 
+        Looks great, comes with alot of games and you can add your own games pretty 
+        easily. It plays everything from gb gbc gba nes snes me up to mame and ps1 
+        flawlessly. I bought one for me and another for my wifes dad. 
+        Dude was like wow what a gift! He plays it like crazy. STARS: *****""",
+        "review2": """I did not have a high expectation, because I was thinking 
+        it might be too good to be true. However, the truth slapped by face. 
+        I really enjoyed the time playing with it. I was kinda addicted to 
+        it in the first couple of weeks. STARS ****""",
+        "review3": """The system will no longer boot up. It’s never been dropped 
+        or gotten left in a car or anything that should have damaged it. 
+        The system worked great for about 2 weeks and had a good collection 
+        of games, the buttons are great and the screen works well, but 
+        ultimately I can’t do anything with the system now. STARS: *"""
+    }
 }
