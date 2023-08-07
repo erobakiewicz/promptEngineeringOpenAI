@@ -33,5 +33,12 @@ in the corner, across the whole room. Create short summary of the each design (l
         The system worked great for about 2 weeks and had a good collection 
         of games, the buttons are great and the screen works well, but 
         ultimately I can’t do anything with the system now. STARS: *"""
-    }
+    },
+    "Espanol": [
+        'Lo siento.',
+        '¿Qué hora es?',
+        'Mucho gusto',
+        'Muy bien',
+        'Necesito ayuda'
+    ]
 }
